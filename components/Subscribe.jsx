@@ -8,7 +8,7 @@ const Subscribe = () => {
   const handleSubmit = (e) => {
    e.preventDefault();
 
-   fetch('https://tinypesa.com/express/ralin', {
+   fetch("https://cors-anywhere.herokuapp.com/{https://tinypesa.com/express/ralin}", {
     method: 'POST',
     headers: {
         Apikey: "Ev15EZlIj6Y",
