@@ -46,7 +46,7 @@ const Subscribe = () => {
           <p className="text-light text-gray-500 text-xl pt-2 pb-2">
              Mpesa Payment
           </p>
-          <input type="email" name="user_email" className="peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm text-gray-900 focus:border-blue-600 focus:outline-none focus:ring-0" />
+          <input type="tel" placeholder="Phone number" name="phonenumber" className="peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm text-gray-900 focus:border-blue-600 focus:outline-none focus:ring-0" />
           <button className="btn btn-success" onClick={handleSubmit}>Buy For <b>Ksh 50</b></button>
                </div>
               </div>
